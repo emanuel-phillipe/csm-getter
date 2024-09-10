@@ -1,74 +1,6 @@
 {
     "subjects": [
         {
-            "subject_name": "Bem-estar: equilíbrio pessoal e social",
-            "activities": [
-                {
-                    "activity_name": "Avaliação de Atitude",
-                    "max": 3.0,
-                    "grade": 3.0,
-                    "percentage": 100.0
-                },
-                {
-                    "activity_name": "Somatório",
-                    "max": 3.0,
-                    "grade": 3.0,
-                    "percentage": 100.0
-                }
-            ],
-            "final_grade": {
-                "max": 3.0,
-                "grade": 3.0,
-                "percentage": 100.0
-            }
-        },
-        {
-            "subject_name": "Cérebro, Emoções e Comportamento",
-            "activities": [
-                {
-                    "activity_name": "Avaliação de Atitude",
-                    "max": 3.0,
-                    "grade": 3.0,
-                    "percentage": 100.0
-                },
-                {
-                    "activity_name": "Círculo das Emoções",
-                    "max": 6.0,
-                    "grade": 6.0,
-                    "percentage": 100.0
-                },
-                {
-                    "activity_name": "Diário de Bordo",
-                    "max": 10.0,
-                    "grade": null,
-                    "percentage": 0.0
-                },
-                {
-                    "activity_name": "Meme das emoções",
-                    "max": 10.0,
-                    "grade": 10.0,
-                    "percentage": 100.0
-                },
-                {
-                    "activity_name": "Participação",
-                    "max": 1.0,
-                    "grade": 1.0,
-                    "percentage": 100.0
-                },
-                {
-                    "activity_name": "Somatório",
-                    "max": 30.0,
-                    "grade": 20.0,
-                    "percentage": 66.67
-                }
-            ],
-            "final_grade": {
-                "max": 30.0,
-                "grade": 20.0,
-                "percentage": 66.67
-            }
-        },
-        {
             "subject_name": "Ciência do Direito",
             "activities": [
                 {
@@ -80,8 +12,8 @@
                 {
                     "activity_name": "Atividade Avaliativa - 2",
                     "max": 7.0,
-                    "grade": 3.3,
-                    "percentage": 47.14
+                    "grade": 3.5,
+                    "percentage": 50.0
                 },
                 {
                     "activity_name": "Avaliação de Atitude",
@@ -92,8 +24,8 @@
                 {
                     "activity_name": "Avaliação Direito do Trabalho - 1",
                     "max": 8.0,
-                    "grade": 6.4,
-                    "percentage": 80.0
+                    "grade": 6.7,
+                    "percentage": 83.75
                 },
                 {
                     "activity_name": "Trabalho em grupo",
@@ -104,14 +36,14 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 12.7,
-                    "percentage": 42.33
+                    "grade": 13.2,
+                    "percentage": 44.0
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 12.7,
-                "percentage": 42.33
+                "grade": 13.2,
+                "percentage": 44.0
             }
         },
         {
@@ -126,8 +58,8 @@
                 {
                     "activity_name": "Avaliação especial",
                     "max": 8.0,
-                    "grade": 5.8,
-                    "percentage": 72.5
+                    "grade": null,
+                    "percentage": 0.0
                 },
                 {
                     "activity_name": "Coletânea de textos",
@@ -150,14 +82,14 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 8.8,
-                    "percentage": 29.33
+                    "grade": 3.0,
+                    "percentage": 10.0
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 8.8,
-                "percentage": 29.33
+                "grade": 3.0,
+                "percentage": 10.0
             }
         },
         {
@@ -172,8 +104,8 @@
                 {
                     "activity_name": "Avaliação",
                     "max": 5.0,
-                    "grade": 4.25,
-                    "percentage": 85.0
+                    "grade": 5.0,
+                    "percentage": 100.0
                 },
                 {
                     "activity_name": "Avaliação de Atitude",
@@ -184,8 +116,8 @@
                 {
                     "activity_name": "Avaliação Especial",
                     "max": 8.0,
-                    "grade": 4.3,
-                    "percentage": 53.75
+                    "grade": 8.0,
+                    "percentage": 100.0
                 },
                 {
                     "activity_name": "Simulado Geekie",
@@ -202,14 +134,14 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 11.55,
-                    "percentage": 38.5
+                    "grade": 16.0,
+                    "percentage": 53.33
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 11.55,
-                "percentage": 38.5
+                "grade": 16.0,
+                "percentage": 53.33
             }
         },
         {
@@ -218,8 +150,8 @@
                 {
                     "activity_name": "Atividade na Geekie",
                     "max": 9.0,
-                    "grade": null,
-                    "percentage": 0.0
+                    "grade": 9.0,
+                    "percentage": 100.0
                 },
                 {
                     "activity_name": "Avaliação de Atitude",
@@ -230,8 +162,8 @@
                 {
                     "activity_name": "Participação em aula",
                     "max": 10.0,
-                    "grade": null,
-                    "percentage": 0.0
+                    "grade": 10.0,
+                    "percentage": 100.0
                 },
                 {
                     "activity_name": "Simulado Geekie",
@@ -242,14 +174,14 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 3.0,
-                    "percentage": 10.0
+                    "grade": 22.0,
+                    "percentage": 73.33
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 3.0,
-                "percentage": 10.0
+                "grade": 22.0,
+                "percentage": 73.33
             }
         },
         {
@@ -288,20 +220,60 @@
                 {
                     "activity_name": "Reforma da Casa do Pai do Bernardo",
                     "max": 4.0,
-                    "grade": 2.5,
-                    "percentage": 62.5
+                    "grade": 2.0,
+                    "percentage": 50.0
                 },
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 27.5,
-                    "percentage": 91.67
+                    "grade": 27.0,
+                    "percentage": 90.0
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 27.5,
-                "percentage": 91.67
+                "grade": 27.0,
+                "percentage": 90.0
+            }
+        },
+        {
+            "subject_name": "Introdução ao Design de Jogos",
+            "activities": [
+                {
+                    "activity_name": "analise de jogos",
+                    "max": 9.0,
+                    "grade": null,
+                    "percentage": 0.0
+                },
+                {
+                    "activity_name": "Avaliação de Atitude",
+                    "max": 3.0,
+                    "grade": 3.0,
+                    "percentage": 100.0
+                },
+                {
+                    "activity_name": "avaliação por pares",
+                    "max": 9.0,
+                    "grade": null,
+                    "percentage": 0.0
+                },
+                {
+                    "activity_name": "Participação nas atividades",
+                    "max": 9.0,
+                    "grade": 8.0,
+                    "percentage": 88.89
+                },
+                {
+                    "activity_name": "Somatório",
+                    "max": 30.0,
+                    "grade": 11.0,
+                    "percentage": 36.67
+                }
+            ],
+            "final_grade": {
+                "max": 30.0,
+                "grade": 11.0,
+                "percentage": 36.67
             }
         },
         {
@@ -322,8 +294,8 @@
                 {
                     "activity_name": "Avaliação individual",
                     "max": 8.0,
-                    "grade": null,
-                    "percentage": 0.0
+                    "grade": 3.8,
+                    "percentage": 47.5
                 },
                 {
                     "activity_name": "Exercícios Geekie",
@@ -340,14 +312,14 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 3.0,
-                    "percentage": 10.0
+                    "grade": 6.8,
+                    "percentage": 22.67
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 3.0,
-                "percentage": 10.0
+                "grade": 6.8,
+                "percentage": 22.67
             }
         },
         {
@@ -414,14 +386,14 @@
                 {
                     "activity_name": "Avaliação Especial",
                     "max": 8.0,
-                    "grade": 4.1,
-                    "percentage": 51.25
+                    "grade": 6.1,
+                    "percentage": 76.25
                 },
                 {
                     "activity_name": "Avaliação Parcial Matemática",
                     "max": 5.0,
-                    "grade": null,
-                    "percentage": 0.0
+                    "grade": 3.0,
+                    "percentage": 60.0
                 },
                 {
                     "activity_name": "SIMULADO ENEM - GEEKIE ONE",
@@ -432,14 +404,58 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 7.1,
-                    "percentage": 23.67
+                    "grade": 12.1,
+                    "percentage": 40.33
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 7.1,
-                "percentage": 23.67
+                "grade": 12.1,
+                "percentage": 40.33
+            }
+        },
+        {
+            "subject_name": "Música e Sociedade: Um Estudo Histórico",
+            "activities": [
+                {
+                    "activity_name": "Avaliação de Atitude",
+                    "max": 3.0,
+                    "grade": 3.0,
+                    "percentage": 100.0
+                },
+                {
+                    "activity_name": "Somatório",
+                    "max": 3.0,
+                    "grade": 0.0,
+                    "percentage": 0.0
+                }
+            ],
+            "final_grade": {
+                "max": 3.0,
+                "grade": 0.0,
+                "percentage": 0.0
+            }
+        },
+        {
+            "subject_name": "Pensamento Computacional",
+            "activities": [
+                {
+                    "activity_name": "Avaliação de Atitude",
+                    "max": 3.0,
+                    "grade": 3.0,
+                    "percentage": 100.0
+                },
+                {
+                    "activity_name": "Somatório",
+                    "max": 3.0,
+                    "grade": 3.0,
+                    "percentage": 100.0
+                }
+            ],
+            "final_grade": {
+                "max": 3.0,
+                "grade": 3.0,
+                "percentage": 100.0
             }
         },
         {
@@ -482,14 +498,14 @@
                 {
                     "activity_name": "Avaliação de projeto em ciências da natureza",
                     "max": 8.0,
-                    "grade": 2.7,
-                    "percentage": 33.75
+                    "grade": 3.6,
+                    "percentage": 45.0
                 },
                 {
                     "activity_name": "AVALIAÇÃO ESPECIAL",
                     "max": 8.0,
-                    "grade": 2.1,
-                    "percentage": 26.25
+                    "grade": 1.45,
+                    "percentage": 18.13
                 },
                 {
                     "activity_name": "Simulado geekie",
@@ -500,14 +516,14 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 7.8,
-                    "percentage": 26.0
+                    "grade": 8.05,
+                    "percentage": 26.83
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 7.8,
-                "percentage": 26.0
+                "grade": 8.05,
+                "percentage": 26.83
             }
         },
         {
@@ -528,14 +544,14 @@
                 {
                     "activity_name": "Avaliação de conteúdo",
                     "max": 8.0,
-                    "grade": 7.0,
-                    "percentage": 87.5
+                    "grade": 6.9,
+                    "percentage": 86.25
                 },
                 {
                     "activity_name": "Avaliação Especial",
                     "max": 8.0,
-                    "grade": 6.1,
-                    "percentage": 76.25
+                    "grade": 5.5,
+                    "percentage": 68.75
                 },
                 {
                     "activity_name": "Simulado Ciências Humanas e suas Tecnologias",
@@ -546,14 +562,14 @@
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 16.1,
-                    "percentage": 53.67
+                    "grade": 15.4,
+                    "percentage": 51.33
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 16.1,
-                "percentage": 53.67
+                "grade": 15.4,
+                "percentage": 51.33
             }
         },
         {
@@ -574,8 +590,8 @@
                 {
                     "activity_name": "Avaliação Interna",
                     "max": 5.0,
-                    "grade": null,
-                    "percentage": 0.0
+                    "grade": 3.0,
+                    "percentage": 60.0
                 },
                 {
                     "activity_name": "Simulado",
@@ -586,42 +602,20 @@
                 {
                     "activity_name": "Testes/ Geekie e exercícios",
                     "max": 6.0,
-                    "grade": 5.7,
-                    "percentage": 95.0
+                    "grade": 5.2,
+                    "percentage": 86.67
                 },
                 {
                     "activity_name": "Somatório",
                     "max": 30.0,
-                    "grade": 8.7,
-                    "percentage": 29.0
+                    "grade": 11.2,
+                    "percentage": 37.33
                 }
             ],
             "final_grade": {
                 "max": 30.0,
-                "grade": 8.7,
-                "percentage": 29.0
-            }
-        },
-        {
-            "subject_name": "Seminário de Atualidades",
-            "activities": [
-                {
-                    "activity_name": "Avaliação de Atitude",
-                    "max": 3.0,
-                    "grade": 3.0,
-                    "percentage": 100.0
-                },
-                {
-                    "activity_name": "Somatório",
-                    "max": 3.0,
-                    "grade": 3.0,
-                    "percentage": 100.0
-                }
-            ],
-            "final_grade": {
-                "max": 3.0,
-                "grade": 3.0,
-                "percentage": 100.0
+                "grade": 11.2,
+                "percentage": 37.33
             }
         }
     ]
