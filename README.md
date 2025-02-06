@@ -8,4 +8,4 @@ Por meio do terminal, o usuário também consegue conversar com o ChatGPT 4o em 
 
 > Selenium - Acesso ao site da escola automático e download da página HTML das avaliações
 
-> BeautifulSoup - Processamento do arquivo HTML para o acesso aos dados mais facilmente
+> BeautifulSoup - Processamento do arquivo HTML para o acesso aos dados
