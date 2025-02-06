@@ -5,26 +5,24 @@ from get_website import get_html_website_code
 def get_data(html_page_code):
     html_content = html_page_code
 
-    # Usar BeautifulSoup para processar o HTML
+    # processar o HTML
     soup = BeautifulSoup(html_content, 'html.parser')
 
-    # Iniciar lista de matérias
     subjects = []
 
-    # Encontrar todas as seções de matérias
+    # encontra no site as tabelas das matérias
     tables = soup.find_all('table', width="98%")
 
     for table in tables:
         subject_data = {}
 
-        # Extrair o nome da matéria
+        # pegar o nome de cada matéria
         subject_name = table.find_previous('td', class_='topoTabelaResponsavel').text.strip()
         subject_data['subject_name'] = subject_name
 
-        # Iniciar lista de avaliações
         activities = []
         
-        # Encontrar todas as tables de avaliações
+        # encontra as atividades dentro das matérias
         rows = table.find_all('tr', bgcolor=["#E5E5E5", "#CCCCCC"])
         for row in rows:
             columns = row.find_all('td')
@@ -38,10 +36,10 @@ def get_data(html_page_code):
                 }
                 activities.append(activity_data)
         
-        # Adicionar avaliações e somatório na matéria
+        # adiciona as atividades dentro de cada matéria
         subject_data['activities'] = activities 
 
-        # Encontrar o somatório
+        # pega o total da matéria no site
         somatorio_row = table.find('tr', bgcolor="#CCCCCC")
         if somatorio_row:
             somatorio_columns = somatorio_row.find_all('td')
@@ -51,14 +49,11 @@ def get_data(html_page_code):
                 "percentage": float(somatorio_columns[3].text.strip().replace(',', '.'))
             }
         
-        # Adicionar matéria à lista de matérias
         subjects.append(subject_data)
 
-    # Converter a lista de matérias em JSON
     json_data = {"subjects": subjects}
     json_output = json.dumps(json_data, indent=4, ensure_ascii=False)
 
-    # Escrever o JSON
     with open('subjects_data.json', 'w', encoding='utf-8') as json_file:
         json_file.write(json_output)
         print("Arquivo JSON gerado")
